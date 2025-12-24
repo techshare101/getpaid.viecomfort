@@ -10,10 +10,10 @@
     "markPaid"
   ],
   "completionCriteria": {
-    "stripePaymentSucceeds": false,
-    "invoiceStored": false,
-    "emailSent": false,
-    "markPaidStopsReminders": false
+    "stripePaymentSucceeds": true,
+    "invoiceStored": true,
+    "emailSent": true,
+    "markPaidStopsReminders": true
   },
   "pendingEdits": [],
   "appliedDiffs": [],
@@ -69,7 +69,16 @@
     "notes": "Landing page upgraded to conversion-optimized version. All sections implemented: Hero, Pain/Solution, How It Works, Benefits, Who It's For, Social Proof, Final CTA, Footer.",
     "landingPageUpgrade": {
       "timestamp": "2024-12-23T22:38:00Z",
-      "sections": ["hero", "painSolution", "howItWorks", "benefits", "whoItsFor", "socialProof", "finalCTA", "footer"],
+      "sections": [
+        "hero",
+        "painSolution",
+        "howItWorks",
+        "benefits",
+        "whoItsFor",
+        "socialProof",
+        "finalCTA",
+        "footer"
+      ],
       "cta": "/api/stripe/checkout",
       "noNavigation": true,
       "mobileFriendly": true
