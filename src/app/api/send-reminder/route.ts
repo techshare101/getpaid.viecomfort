@@ -56,7 +56,7 @@ Thanks!
 ${invoice.sender_name}`;
 
   const { error: emailError } = await resend.emails.send({
-    from: "GetPaid <onboarding@resend.dev>",
+    from: "GetPaid <noreply@viecomfort.com>",
     to: invoice.client_email,
     subject: "Friendly reminder — invoice due",
     text: emailBody,
